@@ -114,13 +114,13 @@ Most things are prefixed with prefixes being generally an acronym of the asset t
 
 All assets should have a _Base Asset Name_. A Base Asset Name represents a logical grouping of related assets. Any asset that is part of this logical group should follow the standard of  `Prefix_BaseAssetName_Variant_Suffix`.
 
-Keeping the pattern `Prefix_BaseAssetName_Variant_Suffix` and in mind and using common sense is generally enough to warrant good asset names. Here are some detailed rules regarding each element.
+Keeping the pattern `Prefix_BaseAssetName_Variant_Suffix` in mind and using common sense is generally enough to warrant good asset names. Here are some detailed rules regarding each element.
 
 `Prefix` and `Suffix` are to be determined by the asset type through the following [Asset Name Modifier](#asset-name-modifiers) tables.
 
-`BaseAssetName` should be determined by a short and easily recognizable name related to the context of this group of assets. For example, if you had a character named Bob, all of Bob's assets would have the `BaseAssetName` of `Bob`.
+`BaseAssetName` should be determined by a short and easily recognizable name related to the context of this group of assets. For example, if you had a character named Xbot, all of Xbot's assets would have the `BaseAssetName` of `Xbot`.
 
-For unique and specific variations of assets, `Variant` is either a short and easily recognizable name that represents logical grouping of assets that are a subset of an asset's base name. For example, if Bob had multiple skins these skins should still use `Bob` as the `BaseAssetName` but include a recognizable `Variant`. An 'Evil' skin would be referred to as `Bob_Evil` and a 'Retro' skin would be referred to as `Bob_Retro`.
+For unique and specific variations of assets, `Variant` is either a short and easily recognizable name that represents logical grouping of assets that are a subset of an asset's base name. For example, if Xbot had multiple skins these skins should still use `Xbot` as the `BaseAssetName` but include a recognizable `Variant`. An 'Evil' skin would be referred to as `Xbot_Evil` and a 'Retro' skin would be referred to as `Xbot_Retro`.
 
 For unique but generic variations of assets, `Variant` is a two digit number starting at `01`. For example, if you have an environment artist generating nondescript rocks, they would be named `Rock_01`, `Rock_02`, `Rock_03`, etc. Except for rare exceptions, you should never require a three digit variant number. If you have more than 100 assets, you should consider organizing them with different base names or using multiple variant names.
 
@@ -129,15 +129,15 @@ Depending on how your asset variants are made, you can chain together variant na
 <a name="1.1-examples"></a>
 #### 1.1 Examples
 
-##### 1.1e1 Bob
+##### 1.1e1 Xbot
 
 | Asset Type              | Asset Name                                                 |
 | ----------------------- | ---------------------------------------------------------- |
-| Skeletal Mesh           | SK_Bob                                                     |
-| Material                | M_Bob                                                      |
-| Texture (Diffuse/Albedo)| T_Bob_D                                                    |
-| Texture (Normal)        | T_Bob_N                                                    |
-| Texture (Evil Diffuse)  | T_Bob_Evil_D                                               |
+| Skeletal Mesh           | SK_Xbot                                                    |
+| Material                | M_Xbot                                                     |
+| Texture (Diffuse/Albedo)| T_Xbot_D                                                   |
+| Texture (Normal)        | T_Xbot_N                                                   |
+| Texture (Evil Diffuse)  | T_Xbot_Evil_D                                              |
 
 ##### 1.1e2 Rocks
 
@@ -418,7 +418,7 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
         |   |   |-- Trees
         |   |-- Office
         |-- Characters
-        |   |-- Bob
+        |   |-- Xbot
         |   |-- Common
         |   |   |-- <a href="#2.7">Animations</a>
         |   |   |-- Audio
