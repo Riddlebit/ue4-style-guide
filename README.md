@@ -285,7 +285,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 | Texture (Mask)          | T_         | _Mask      |                                  |
 | Texture (Specular)      | T_         | _S         |                                  |
 | Texture (Metallic)      | T_         | _M         |                                  |
-| Texture (Roughness, Metallic and Ambient Occlusion)| T_         | _RMA         | RGB channels (respectively) |
+| Texture (Metallic, Roughness and Ambient Occlusion)| T_         | _MRA         | RGB channels (respectively) |
 | Texture (Packed)        | T_         | _*         | See notes below about [packing](#anc-textures-packing). |
 | Texture Cube            | TC_        |            |                                  |
 | Media Texture           | MT_        |            |                                  |
