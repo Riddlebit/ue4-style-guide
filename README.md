@@ -386,7 +386,16 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
-| Particle System         | PS_        |            |                                  |
+| Cascade Particle System | PS_        |            | Deprecated asset                 |
+| Niagara Particle System | NS_        |            |                                  |
+| Niagara Particle Emitter| NE_        |            |                                  |
+| Niagara effect type     | NT_        |            |                                  |
+| N. Dynamic Input Script | NDI_       |            |                                  |
+| Niagara Function Script | NFI_       |            |                                  |
+| Niagara Module Script   | NMS_       |            |                                  |
+| N. Parameter Collection | NPC_       |            |                                  |
+| N. P. C. Instnace       | NPCI_      |            |                                  |
+| Vector Fields           | VF_        |            |                                  |
 | Material (Post Process) | PP_        |            |                                  |
 
 **[⬆ Back to Top](#table-of-contents)**
