@@ -362,9 +362,9 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 | Dialogue Wave           | DW_        |            |                                  |
 | Media Sound Wave        | MSW_       |            |                                  |
 | Reverb Effect           | Reverb_    |            |                                  |
-| Sound Attenuation       | ATT_       |            |                                  |
+| Sound Attenuation       | Att_       |            |                                  |
 | Sound Class             |            |            | No prefix/suffix. Should be put in a folder called SoundClasses |
-| Sound Concurrency       |            | _SC        | Should be named after a SoundClass |
+| Sound Concurrency       | Con_       |            | Should be named after a SoundClass |
 | Sound Cue               | SC_        |            |                                  |
 | Sound Mix               | Mix_       |            |                                  |
 | Sound Wave              | S_         |            |                                  |
